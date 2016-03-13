@@ -1,0 +1,40 @@
+article {
+    text-align: justify;
+    z-index: -1;
+    top: 41%;
+    height: 50%;
+    position: absolute;
+}
+.trekpleisterimg {
+    width: 90%;
+    margin-top: 5%;
+}
+section , aside{
+    display: inline-block;
+    vertical-align: top;
+}
+section {
+    width: 55%;
+    margin-right: 5%;
+}
+aside {
+    width: 34%;
+    margin-left: 5%;
+}
+h2 {
+    font-size: 2em;
+    text-align: center;
+    border-bottom: 4px solid #DE2A48;
+}
+
+@media screen and (max-width : 1000px){
+    section {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    aside {
+        width: 90%;
+        text-align: center;
+    }
+}

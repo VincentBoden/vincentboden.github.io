@@ -1,0 +1,52 @@
+.trekpleisterimg {
+    height: 175px;
+}
+h2 {
+    font-size: 1.5em;
+    text-align: center;
+    border-bottom: 4px solid #DE2A48;
+}
+h2 a {
+    text-decoration: none;
+    color: black;
+}
+h2 a:hover {
+    color: #0E499C;
+}
+article section {
+    float: left;
+    transition:box-shadow .25s;
+    padding:20px;
+    border-radius:2px;
+    box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    Background-color: #DFE6E8;
+    text-align: center;
+    width: 27%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    margin-bottom: 2%;
+}
+
+article {
+    text-align: justify;
+    z-index: -1;
+    height: 50%;
+    top: 42%;
+    position: absolute;
+    width: 90%;
+    left: 5%;
+    right: 5%;
+}
+
+@media screen and (max-width : 1250px){
+    article section {
+        width: 90%;
+        padding-right: 5%;
+        padding-left: 5%;
+        margin: 5% 0;
+    }
+    .trekpleisterimg {
+        height: 100%;
+        width: 90%;
+    }
+}

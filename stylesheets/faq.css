@@ -1,0 +1,33 @@
+h2 {
+    font-size: 2em;
+    text-align: center;
+    border-bottom: 4px solid #DE2A48;
+}
+article {
+    text-align: justify;
+    z-index: -1;
+    height: 50%;
+    top: 40%;
+    position: absolute;
+    float:left;
+    width: 70%;
+    left: 15%;
+    right: 15%;
+}
+p {
+    color: white;
+    background-color: #4070B3;
+    box-shadow: 2px 2px 2px 2px #06303A;
+    margin-top: 2.5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+@media screen and (max-width : 1250px){
+    article {
+        width: 90%;
+        left: 5%;
+        right: 5%;
+    }
+}

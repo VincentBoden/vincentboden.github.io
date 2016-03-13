@@ -1,0 +1,124 @@
+* {
+    font-family: sans-serif;
+}
+.laatste {
+    margin-bottom: 75px;
+}
+.footerimg {
+    width: 75px;
+    height: auto;
+}
+.current {
+    background-color: #06303A;
+}
+header {
+    background-image: url(../images/londonskyline1.jpg);
+    width: 100%;
+    height: 40%;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: -3;
+}
+h1 {
+    position: relative;
+    z-index: -2;
+    text-align: center;
+    color:white;
+    text-shadow: 2px 2px gray;
+    font-size: 50px;
+    font-weight: bold;
+}
+footer {
+    color:#FFFFFF;
+    background: #06303A;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    position: fixed;
+}
+
+/*Navigatie*/
+ul {
+    z-index: 0;
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    position: static;
+    display: inline-block;
+    width: 100%;
+}
+li {
+    margin:0;
+    padding:0;
+    width:16.65%;
+    float:left;
+}
+li a {
+    display:block;
+    min-width: 200px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    background: #2f3036;
+    text-decoration: none;
+}
+li:hover a {
+    background: #06303A;
+}
+li:hover ul a {
+    background: #f3f3f3;
+    color: #2f3036;
+    height: 40px;
+    line-height: 40px;
+}
+li ul {
+    display: none;
+}
+.navigatiemenu {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    color: #fff;
+    background: #2f3036;
+    text-align: center;
+    height: 40px;
+    padding-top: 20px;
+    border-bottom: 5px solid gray;
+    display: none;
+    cursor:pointer;
+}
+input[type=checkbox]{
+    display: none;
+}
+input[type=checkbox]:checked ~ #menu{
+    display: block;
+}
+@media screen and (max-width : 1250px){
+    ul {
+        position: static;
+        display: none;
+    }
+    ul li, li a {
+        width: 100%;
+    }
+    .navigatiemenu {
+        display:block;
+    }
+    h1 {
+        font-size: 2em;
+    }
+}
+@media screen and (max-width: 1000px) {
+    header {
+        background-image: url(../images/londonskyline3.jpg);
+    }
+}
+@media screen and (max-width: 600px) {
+    header {
+        background-image: url(../images/londonskyline2.jpg);
+    }
+}
