@@ -1,7 +1,9 @@
 article {
     z-index: -2;
     top: 41%;
-    left: 20%;
+    left: 15%;
+    right: 15%;
+    width: 70%;
     position: absolute;
     background: #e4e0e7;
     box-shadow: 0 0 20px #878787;
