@@ -1,0 +1,35 @@
+h2 {
+    font-size: 2em;
+    text-align: center;
+    border-bottom: 4px solid #DE2A48;
+}
+article {
+    text-align: center;
+    height: 50%;
+    top: 40%;
+    position: absolute;
+    width: 50%;
+    left: 25%;
+    right: 25%;
+}
+.faq {
+    color: black;
+    font-size: 2em;
+    margin-bottom: 100px;
+}
+.faq a {
+    color: black;
+    border: solid 3px #DE2A48;
+    border-radius: 1em;
+    padding: 7px 20px;
+    text-decoration: none;
+    background-color: #f3f3f3;
+}
+
+@media screen and (max-width : 1250px){
+    article {
+        left: 5%;
+        right: 5%;
+        width: 90%;
+    }
+}

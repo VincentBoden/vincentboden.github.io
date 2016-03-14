@@ -26,22 +26,22 @@
 
         <article>
             <h2>Vragen formulier</h2>
-            <form>
+            <form action="verzend.html" method="POST">
                 <section>
-                    <h3><label>E-mail:</label></h3>
-                    <input />
+                    <h3><label for="email">E-mail:</label></h3>
+                    <input type="text" id="email" name="email" />
                 </section>
                 <section>
-                    <h3><label>Naam:</label></h3>
-                    <input />
+                    <h3><label for="naam">Naam:</label></h3>
+                    <input type="text" id="naam" name="naam" />
                 </section>
                 <section>
-                    <h3><label>Onderwerp:</label></h3>
-                    <input />
+                    <h3><label for="onderwerp">Onderwerp:</label></h3>
+                    <input type="text" id="onderwerp" name="onderwerp" />
                 </section>
                 <section>
-                    <h3><label>Highlights:</label></h3>
-                    <select>
+                    <h3><label for="highlights">Highlights:</label></h3>
+                    <select id="highlights" name="highlights">
                         <option value="keuze">Maak u keuze.</option>
                         <option value="trekpleisters">Trekpleisters</option>
                         <option value="evenementen">Evenementen</option>
@@ -50,11 +50,11 @@
                     </select>
                 </section>
                 <section>
-                    <h3><label>Uw vraag:</label></h3>
-                    <textarea></textarea>
+                    <h3><label for="vraag">Uw vraag:</label></h3>
+                    <textarea id="vraag" name="vraag"></textarea>
                 </section>
                 <section>
-                    <button type="submit"><a><h3>Verstuur</h3></a></button>
+                    <button type="submit" value="verzend"><a><h3>Verstuur</h3></a></button>
                 </section>
             </form>
             <p>Als u uw eigen vraag wilt zien staan met het antwoord of de vragen die al reeds gesteld zijn door uw voorgangers kan u door op de knop te klikken naar de FAQ van onze website gaan.</p>
