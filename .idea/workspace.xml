@@ -2,15 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1d5c34b-86c8-4dc7-bef9-b0b3c2444667" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/index.css" afterPath="$PROJECT_DIR$/stylesheets/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/vragen.css" afterPath="$PROJECT_DIR$/stylesheets/vragen.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trekpleisters/bigben.html" afterPath="$PROJECT_DIR$/trekpleisters/bigben.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trekpleisters/buckinghampalace.html" afterPath="$PROJECT_DIR$/trekpleisters/buckinghampalace.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trekpleisters/londoneye.html" afterPath="$PROJECT_DIR$/trekpleisters/londoneye.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trekpleisters/sealifelondon.html" afterPath="$PROJECT_DIR$/trekpleisters/sealifelondon.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trekpleisters/towerbridge.html" afterPath="$PROJECT_DIR$/trekpleisters/towerbridge.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trekpleisters/westminsterabbey.html" afterPath="$PROJECT_DIR$/trekpleisters/westminsterabbey.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vragen.html" afterPath="$PROJECT_DIR$/vragen.html" />
     </list>
     <ignored path="KDG website.iws" />
@@ -31,7 +22,18 @@
     <favorites_list name="KDG website" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="vragen.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vragen.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.43125734">
+              <caret line="53" column="65" selection-start-line="53" selection-start-column="65" selection-end-line="53" selection-end-column="65" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -81,10 +83,10 @@
         <option value="$PROJECT_DIR$/trekpleisters/sealifelondon.html" />
         <option value="$PROJECT_DIR$/trekpleisters/towerbridge.html" />
         <option value="$PROJECT_DIR$/trekpleisters/westminsterabbey.html" />
-        <option value="$PROJECT_DIR$/vragen.html" />
         <option value="$PROJECT_DIR$/verzend.html" />
         <option value="$PROJECT_DIR$/stylesheets/verzend.css" />
         <option value="$PROJECT_DIR$/stylesheets/vragen.css" />
+        <option value="$PROJECT_DIR$/vragen.html" />
       </list>
     </option>
   </component>
@@ -637,8 +639,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vragen.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.051703878">
-          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.43125734">
+          <caret line="53" column="65" selection-start-line="53" selection-start-column="65" selection-end-line="53" selection-end-column="65" />
           <folding />
         </state>
       </provider>
