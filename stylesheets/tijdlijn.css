@@ -1,0 +1,45 @@
+h2 {
+    font-size: 2em;
+    text-align: center;
+    border-bottom: 4px solid #DE2A48;
+}
+article {
+    text-align: justify;
+    z-index: -1;
+    height: 50%;
+    top: 40%;
+    position: absolute;
+    width: 70%;
+    left: 15%;
+    right: 15%;
+}
+
+section , aside{
+    display: inline-block;
+    vertical-align: top;
+}
+section {
+    width: 60%;
+}
+aside {
+    margin-top: 5%;
+    margin-left: 2%;
+    width: 37%;
+}
+.tijdlijnimg {
+    width: 100%;
+}
+
+@media screen and (max-width : 1250px){
+    section {
+        width: 100%;
+    }
+    article {
+        width: 90%;
+        left: 5%;
+        right: 5%;
+    }
+    aside {
+        width: 95%;
+    }
+}
