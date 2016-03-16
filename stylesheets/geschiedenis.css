@@ -4,6 +4,7 @@ p a{
 }
 section {
     background-color: #162EB8;
+    width: 100%;
 }
 p {
     padding-top: 25px;
