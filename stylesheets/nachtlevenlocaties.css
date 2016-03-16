@@ -1,0 +1,46 @@
+
+article {
+    text-align: justify;
+    z-index: -1;
+    top: 41%;
+    height: 50%;
+    position: absolute;
+    width: 50%;
+    left: 25%;
+    right: 25%;
+}
+.nachtlevenimg {
+    width: 100%;
+}
+section , aside{
+    display: inline-block;
+    vertical-align: top;
+}
+section {
+    width: 49%;
+}
+aside {
+    width: 50%;
+}
+h2 {
+    font-size: 2em;
+    text-align: center;
+    border-bottom: 4px solid #DE2A48;
+}
+
+@media screen and (max-width : 1000px){
+    td {
+        width: auto;
+    }
+    section {
+        width: 100%;
+    }
+    aside {
+        width: 100%;
+    }
+    article {
+        width: 90%;
+        left: 5%;
+        right: 5%;
+    }
+}
