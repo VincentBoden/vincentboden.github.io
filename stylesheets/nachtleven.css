@@ -11,9 +11,28 @@ article {
     width: 1000px;
     height: auto;
 }
+p a{
+    color: black;
+    text-decoration: none;
+}
+p a:hover {
+    color: gray;
+}
+h2 {
+    font-size: 2em;
+    text-align: center;
+    border-bottom: 4px solid #DE2A48;
+}
 
 @media screen and (max-width : 1030px){
     .londonkaart {
         display: none;
+    }
+    article {
+        margin-left: 0;
+        width: 90%;
+        left: 5%;
+        right: 5%;
+        text-align: justify;
     }
 }
