@@ -18,12 +18,6 @@ p a{
 p a:hover {
     color: gray;
 }
-h2 {
-    font-size: 2em;
-    text-align: center;
-    border-bottom: 4px solid #DE2A48;
-}
-
 @media screen and (max-width : 1030px){
     .londonkaart {
         display: none;

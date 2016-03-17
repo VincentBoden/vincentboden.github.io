@@ -13,11 +13,6 @@ p {
 p:hover {
     background-color: #001799;
 }
-h2 {
-    font-size: 2em;
-    text-align: center;
-    border-bottom: 4px solid #DE2A48;
-}
 article {
     text-align: center;
     z-index: -1;

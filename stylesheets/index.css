@@ -25,11 +25,7 @@ h3 {
     text-align: center;
     color: white;
 }
-h2 {
-    font-size: 2em;
-    text-align: center;
-    border-bottom: 4px solid #DE2A48;
-}
+
 article {
     text-align: justify;
     z-index: -1;

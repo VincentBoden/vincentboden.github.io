@@ -22,11 +22,6 @@ section {
 aside {
     width: 50%;
 }
-h2 {
-    font-size: 2em;
-    text-align: center;
-    border-bottom: 4px solid #DE2A48;
-}
 
 @media screen and (max-width : 1000px){
     td {

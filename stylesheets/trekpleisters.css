@@ -1,11 +1,6 @@
 .trekpleisterimg {
     height: 175px;
 }
-h2 {
-    font-size: 1.5em;
-    text-align: center;
-    border-bottom: 4px solid #DE2A48;
-}
 h2 a {
     text-decoration: none;
     color: black;
