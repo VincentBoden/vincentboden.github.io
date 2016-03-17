@@ -1,13 +1,16 @@
-.trekpleisterimg {
-    height: 175px;
+/*Positionering*/
+article {
+    text-align: justify;
+    z-index: -1;
+    height: 50%;
+    top: 42%;
+    position: absolute;
+    width: 90%;
+    left: 5%;
+    right: 5%;
 }
-h2 a {
-    text-decoration: none;
-    color: black;
-}
-h2 a:hover {
-    color: #0E499C;
-}
+
+/*Creëeren van boxen*/
 article section {
     float: left;
     transition:box-shadow .25s;
@@ -21,17 +24,20 @@ article section {
     margin-right: 1.5%;
     margin-bottom: 2%;
 }
-article {
-    text-align: justify;
-    z-index: -1;
-    height: 50%;
-    top: 42%;
-    position: absolute;
-    width: 90%;
-    left: 5%;
-    right: 5%;
+
+h2 a {
+    text-decoration: none;
+    color: black;
+}
+h2 a:hover {
+    color: #0E499C;
 }
 
+.trekpleisterimg {
+    height: 175px;
+}
+
+/*Media queries voor responsivness*/
 @media screen and (max-width : 1250px){
     article section {
         width: 90%;

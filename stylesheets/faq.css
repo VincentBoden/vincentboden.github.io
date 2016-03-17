@@ -1,3 +1,4 @@
+/*Positionering*/
 article {
     text-align: justify;
     z-index: -1;
@@ -19,6 +20,7 @@ p {
     text-align: center;
 }
 
+/*Media queries voor responsivness*/
 @media screen and (max-width : 1250px){
     article {
         width: 90%;

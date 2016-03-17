@@ -1,16 +1,7 @@
 * {
     font-family: sans-serif;
 }
-.laatste {
-    margin-bottom: 100px;
-}
-.footerimg {
-    width: 75px;
-    height: auto;
-}
-.current {
-    background-color: #06303A;
-}
+
 header {
     background-image: url(../images/londonskyline1.jpg);
     width: 100%;
@@ -22,9 +13,7 @@ header {
     top: 0;
     z-index: -3;
 }
-.hide {
-    display: none;
-}
+
 h1 {
     position: relative;
     z-index: -2;
@@ -39,6 +28,7 @@ h2 {
     text-align: center;
     border-bottom: 4px solid #DE2A48;
 }
+
 footer {
     color:#FFFFFF;
     background: #06303A;
@@ -47,6 +37,24 @@ footer {
     right: 0;
     text-align: center;
     position: fixed;
+}
+.footerimg {
+    width: 75px;
+    height: auto;
+}
+/*Uitlijning met footer*/
+.laatste {
+    margin-bottom: 100px;
+}
+
+/*aanduiding pagina waar je je bevindt*/
+.current {
+    background-color: #06303A;
+}
+
+/*Het onzichtbaar maken van titels voor chrome outline tool*/
+.hide {
+    display: none;
 }
 
 /*Navigatie*/
@@ -99,12 +107,18 @@ li ul {
     display: none;
     cursor:pointer;
 }
+/*Checkbox, werking van het responsive menu.
+Als hij checked is verschijnt het menu.
+Onzichtbaar wanneer het scherm groter is dan
+1250px*/
 input[type=checkbox]{
     display: none;
 }
 input[type=checkbox]:checked ~ #menu{
     display: block;
 }
+
+/*Media queries voor responsivness*/
 @media screen and (max-width : 1250px){
     ul {
         position: static;

@@ -13,6 +13,8 @@ p {
 p:hover {
     background-color: #001799;
 }
+
+/*Positionering*/
 article {
     text-align: center;
     z-index: -1;
@@ -48,6 +50,7 @@ td:hover {
     display: none;
 }
 
+/*Media queries voor responsivness*/
 @media screen and (max-width : 1250px){ 
     .groot {
         display: none;

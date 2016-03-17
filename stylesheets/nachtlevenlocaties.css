@@ -1,4 +1,4 @@
-
+/*Positionering*/
 article {
     text-align: justify;
     z-index: -1;
@@ -9,9 +9,8 @@ article {
     left: 25%;
     right: 25%;
 }
-.nachtlevenimg {
-    width: 100%;
-}
+
+/*Tekst + Foto*/
 section , aside{
     display: inline-block;
     vertical-align: top;
@@ -23,6 +22,12 @@ aside {
     width: 50%;
 }
 
+.nachtlevenimg {
+    width: 100%;
+}
+
+
+/*Media queries voor responsivness*/
 @media screen and (max-width : 1000px){
     td {
         width: auto;

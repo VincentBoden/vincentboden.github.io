@@ -1,24 +1,4 @@
-.faq {
-    color: black;
-    font-size: 2em;
-    margin-bottom: 100px;
-    border: 0;
-}
-.faq a {
-    color: black;
-    border: solid 3px #DE2A48;
-    border-radius: 1em;
-    padding: 7px 20px;
-    text-decoration: none;
-    background-color: #f3f3f3;
-}
-button a h3 {
-    color: black;
-}
-h3 {
-    margin: 0;
-    color: white;
-}
+/*Positionering*/
 article {
     z-index: -1;
     height: 50%;
@@ -28,6 +8,15 @@ article {
     left: 30%;
     right: 30%;
     width: 40%;
+}
+
+/*Opmaak en creatie van het formulier*/
+button a h3 {
+    color: black;
+}
+h3 {
+    margin: 0;
+    color: white;
 }
 form {
     background-color: gray;
@@ -56,6 +45,23 @@ textarea {
     resize: vertical;
 }
 
+/*FAQ button*/
+.faq {
+    color: black;
+    font-size: 2em;
+    margin-bottom: 100px;
+    border: 0;
+}
+.faq a {
+    color: black;
+    border: solid 3px #DE2A48;
+    border-radius: 1em;
+    padding: 7px 20px;
+    text-decoration: none;
+    background-color: #f3f3f3;
+}
+
+/*Media queries voor responsivness*/
 @media screen and (max-width : 1250px){
     label {
         width: 100%;

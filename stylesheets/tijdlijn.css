@@ -1,3 +1,4 @@
+/*Positionering*/
 article {
     text-align: justify;
     z-index: -1;
@@ -9,6 +10,7 @@ article {
     right: 15%;
 }
 
+/*Tekst + Foto*/
 section , aside{
     display: inline-block;
     vertical-align: top;
@@ -21,10 +23,12 @@ aside {
     margin-left: 2%;
     width: 37%;
 }
+
 .tijdlijnimg {
     width: 100%;
 }
 
+/*Media queries voor responsivness*/
 @media screen and (max-width : 1250px){
     section {
         width: 100%;

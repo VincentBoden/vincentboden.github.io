@@ -1,3 +1,4 @@
+/*Positionering*/
 article {
     text-align: justify;
     z-index: -1;
@@ -5,10 +6,8 @@ article {
     height: 50%;
     position: absolute;
 }
-.trekpleisterimg {
-    width: 90%;
-    margin-top: 5%;
-}
+
+/*Tekst + Foto*/
 section , aside{
     display: inline-block;
     vertical-align: top;
@@ -22,6 +21,12 @@ aside {
     margin-left: 5%;
 }
 
+.trekpleisterimg {
+    width: 90%;
+    margin-top: 5%;
+}
+
+/*Media queries voor responsivness*/
 @media screen and (max-width : 1000px){
     section {
         width: 90%;
