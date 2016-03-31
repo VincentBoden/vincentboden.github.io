@@ -65,8 +65,8 @@ a {
         left: 5%;
         right: 5%;
     }
-    .modalDialog > section {
-        top: 10%;
+    .popupvenster > section {
         width: 80%;
+        top: 20%;
     }
 }
